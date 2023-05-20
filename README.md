@@ -8,7 +8,7 @@ This is far from a perfect music generator or composition tool. However, as some
 
 ## What Does it Do?
 
-RandomMusician randomly selects a variable number of notes from a major scale, each associated with a specific frequency or piano .wav file, and plays them back using sound files. The result is a unique melody of your desired size every time you run the script.
+RandomMusician randomly selects a variable number of notes from a major scale, each associated with a specific frequency or piano .wav file, and plays them back. The result is a unique melody of your desired size every time you run the script.
 You can choose to use piano sound files or frequencies.
 
 ## Getting Started
