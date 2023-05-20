@@ -4,7 +4,7 @@ This is a simple side project which generates a sequence of random notes from a 
 
 Built using Python and it's libraries.
 
-This is far from a perfect music generator or composition tool. In fact, it's a long way from it! However, as someone who isn't a musician or proficient with music editing software like Audacity or FL Studio, this project was a fun opportunity to try to learn and explore sound manipulation in Python.
+This is far from a perfect music generator or composition tool. However, as someone who isn't a musician or proficient with music editing software, this project was a fun opportunity to try to learn and explore the most basic of sound manipulations in Python.
 
 ## What Does it Do?
 
