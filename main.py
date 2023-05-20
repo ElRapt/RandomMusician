@@ -63,6 +63,17 @@ def play_note_sequence(sequence):
         except Exception as e:
             print(f"Failed to play note: {e}")
 
-sequence_notes = create_sequence(5)
+def play_note_sequence_using_frequencies(sequence):
+    """Play a sequence of notes using their frequencies."""
+    for note in sequence:
+        frequency = MAJOR_SCALE[note]
+        try:
+            play_tone(frequency)
+        except Exception as e:
+            print(f"Failed to play note: {e}")
+
+
+sequence_notes = create_sequence(10)
 print(sequence_notes)
-play_note_sequence(sequence_notes)
+#play_note_sequence(sequence_notes)
+play_note_sequence_using_frequencies(sequence_notes)
